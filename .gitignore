@@ -14,3 +14,5 @@ cost_revenue_dirty.csv
 cost_revenue_clean.csv
 
 .idea/
+
+LR/__pycache__/
