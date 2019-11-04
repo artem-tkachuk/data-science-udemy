@@ -64,9 +64,6 @@ def init_line(X, y, thetas):
     line, = ax.plot(xdata, ydata, 'r-')
     data_plot = ax.scatter(xdata, y)
 
-    ax.set_xlim(np.amin(xdata) * 1.2, np.amax(xdata) * 1.2)
-    ax.set_ylim(np.amin(y) * 1.2, np.amax(y) * 1.2)
-
     return (fig, ax, xdata, line)
 
 def replot_line(fig, ax, xdata, line, X, thetas, k, nTimes):
