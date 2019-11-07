@@ -2,8 +2,8 @@ import numpy as np
 import matplotlib; matplotlib.use("TkAgg")
 import matplotlib.pyplot as plt;  plt.ion()
 
-from LR.readFile import readFile
-from LR.graph import init_cost, replot_cost, init_line, replot_line
+from readFile import readFile
+from graph import init_cost, replot_cost, init_line, replot_line
 
 def train(fn):
     # number of training iterations

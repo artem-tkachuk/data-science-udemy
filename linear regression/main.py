@@ -1,9 +1,9 @@
-from LR.train import train
-from LR.graph import init_line
+from train import train
+from graph import init_line
 import matplotlib.pyplot as plt
 
 def main():
-    fileName = 'cost_revenue_clean_custom.txt'
+    fileName = 'data/cost_revenue_clean_custom.txt'
 
     thetas = train(fileName)
     print(thetas)
